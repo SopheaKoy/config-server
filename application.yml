@@ -1,9 +1,10 @@
+server:
+  port: 8888
+
 #application name
 spring:
   application:
     name: config-server
-  profiles: 
-    active: git
 
 #configuration Eureka Client
 eureka:
