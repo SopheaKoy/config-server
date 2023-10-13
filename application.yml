@@ -1,1 +1,10 @@
+#application  name
+spring:
+  application:
+    name: config-server
 
+#configuration Enreka Client
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
