@@ -3,7 +3,7 @@ spring:
   application:
     name: config-server
 
-#configuration Enreka Client
+#configuration Eureka Client
 eureka:
   client:
     serviceUrl:
